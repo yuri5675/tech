@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Lexend:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/fundo.png);
+    background-size: contain;
+    color: #FEFEEB;
+}
+
+/* imicio estilização cabeçalho */
+
+#cabecalho{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.cabecalho_menu{
+    border: 5px solid red;
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho_image{
+    border: 5px solid yellow;
+    position: relative;
+    right: 268px;
+}
+
+.cabecalho_menu_lista{
+    border:  5px solid blue;
+    display: flex;
+   align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    gap: 67px;
+
+}
+
+.cabecalho_menu_lista_link{
+    font-size: 20px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    color: #FEFEEB;
+}
+
+    .cabecalho_menu_lista_botao{
+        width: 275px;
+     
+        background-color: #FEFEEB;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #008E9E;
+        padding: 20px;
+        font-family: "Josefin Sans", sans-serif;
+        
+        
+
+    }
+
+/* Fiem da estilização do cabeçalho*/
+
